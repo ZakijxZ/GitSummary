@@ -503,6 +503,7 @@ origin
   git checkout -b dev   #b参数表示创建并切换，等于以下两条命令
   git branch dev  #创建分支dev
   git checkout dev   #切换HEAD到分支dev
+  git branch -m master dev  #重命名当前分支为dev
   
   git branch    #查看当前分支，*代表当前分支
   * dev
